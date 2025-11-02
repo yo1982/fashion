@@ -1,0 +1,68 @@
+import { Product } from './types';
+
+export const PRODUCTS: Product[] = [
+  {
+    id: 1,
+    name: 'City Loafer',
+    price: '€325',
+    imageUrl: 'https://images.pexels.com/photos/267202/pexels-photo-267202.jpeg?auto=compress&cs=tinysrgb&w=500&h=600&fit=crop',
+    hoverImageUrl: 'https://images.pexels.com/photos/167706/pexels-photo-167706.jpeg?auto=compress&cs=tinysrgb&w=500&h=600&fit=crop',
+    category: 'Suede Shoes',
+  },
+  {
+    id: 2,
+    name: 'Linen Beach Shirt',
+    price: '€165',
+    imageUrl: 'https://images.pexels.com/photos/8372224/pexels-photo-8372224.jpeg?auto=compress&cs=tinysrgb&w=500&h=600&fit=crop',
+    hoverImageUrl: 'https://images.pexels.com/photos/10188370/pexels-photo-10188370.jpeg?auto=compress&cs=tinysrgb&w=500&h=600&fit=crop',
+    category: 'Shirts',
+  },
+  {
+    id: 3,
+    name: 'Voyager Weekender Bag',
+    price: '€650',
+    imageUrl: 'https://images.pexels.com/photos/2422476/pexels-photo-2422476.jpeg?auto=compress&cs=tinysrgb&w=500&h=600&fit=crop',
+    hoverImageUrl: 'https://images.pexels.com/photos/1578997/pexels-photo-1578997.jpeg?auto=compress&cs=tinysrgb&w=500&h=600&fit=crop',
+    category: 'Bags & Leather',
+  },
+  {
+    id: 4,
+    name: 'Maritime Pullover',
+    price: '€220',
+    imageUrl: 'https://images.pexels.com/photos/7137535/pexels-photo-7137535.jpeg?auto=compress&cs=tinysrgb&w=500&h=600&fit=crop',
+    hoverImageUrl: 'https://images.pexels.com/photos/6770498/pexels-photo-6770498.jpeg?auto=compress&cs=tinysrgb&w=500&h=600&fit=crop',
+    category: 'Knitwear',
+  },
+  {
+    id: 5,
+    name: 'Riviera Polo',
+    price: '€110',
+    imageUrl: 'https://images.pexels.com/photos/8434691/pexels-photo-8434691.jpeg?auto=compress&cs=tinysrgb&w=500&h=600&fit=crop',
+    hoverImageUrl: 'https://images.pexels.com/photos/8434689/pexels-photo-8434689.jpeg?auto=compress&cs=tinysrgb&w=500&h=600&fit=crop',
+    category: 'Polo Shirts',
+  },
+  {
+    id: 6,
+    name: 'Suede Driving Shoes',
+    price: '€295',
+    imageUrl: 'https://images.pexels.com/photos/2529157/pexels-photo-2529157.jpeg?auto=compress&cs=tinysrgb&w=500&h=600&fit=crop',
+    hoverImageUrl: 'https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=500&h=600&fit=crop',
+    category: 'Suede Shoes',
+  },
+  {
+    id: 7,
+    name: 'Cashwool Zip-Cardigan',
+    price: '€250',
+    imageUrl: 'https://images.pexels.com/photos/7679893/pexels-photo-7679893.jpeg?auto=compress&cs=tinysrgb&w=500&h=600&fit=crop',
+    hoverImageUrl: 'https://images.pexels.com/photos/6764727/pexels-photo-6764727.jpeg?auto=compress&cs=tinysrgb&w=500&h=600&fit=crop',
+    category: 'Knitwear',
+  },
+  {
+    id: 8,
+    name: 'Leather Belt',
+    price: '€95',
+    imageUrl: 'https://images.pexels.com/photos/984619/pexels-photo-984619.jpeg?auto=compress&cs=tinysrgb&w=500&h=600&fit=crop',
+    hoverImageUrl: 'https://images.pexels.com/photos/3775560/pexels-photo-3775560.jpeg?auto=compress&cs=tinysrgb&w=500&h=600&fit=crop',
+    category: 'Accessories',
+  },
+];
